@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contanier {
+  width: 90%;
+  height: 350px;
+}
+
+.contanier .tab-heads {
+  height: 15%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.contanier .tab-heads button {
+  width: 100px;
+  height: 100%;
+  font-size: medium;
+  border-style: none;
+  color: #096efd;
+  background-color: transparent;
+  cursor: pointer;
+  float: left;
+}
+
+.contanier .tab-heads button:hover {
+  outline-style: solid;
+  outline-width: .1px;
+  outline-color: #e9e5e5;
+}
+
+.contanier .tab-content {
+  margin-left: 15px;
+  height: 85%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding-top: 105px;
+  display: none;
+}
